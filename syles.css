@@ -1,0 +1,425 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: #ffffff;
+    padding: 15px;
+}
+.menu-items{
+    display: flex;
+}
+.menu-items p{
+    font-size: 2rem;
+    color:#999999;
+    padding-right: 90%;
+}
+.logo .img-container{
+    width:100%;
+    height: 700px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo .logo-img{
+    background-image: url(images/hero-bg.jpg);
+}
+.logo .repair{
+    padding-top: 20%;
+    padding-right: 3%;
+    color: #ffffff;
+    padding-left: 10px;
+}
+.line{
+    height: 10px;
+    background-color: #ffff;
+    margin-right: 45%;
+    margin-bottom: 3%;
+}
+.repair .house{
+    font-size: 3rem;
+}
+.house-heading{
+    font-size:5rem;
+}
+.logo-icons{
+    margin-top: 10px;
+    display: flex;
+}
+.cleaning{
+    padding: 0 10%;
+}
+.paint-brush P{
+    padding:15px 0;
+}
+.cleaning p{
+    padding: 15px;
+}
+.plum p{
+    padding: 15px 0;
+}
+.clean{
+    height: 100px;
+    color: #ffffff;
+}
+.services{
+    background-color: #f2f2f2;
+}
+.container{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.container .head{
+    color:#999999 !important;
+    padding-bottom: 20px;
+}
+.container .how{
+    font-size: 2.5rem;
+    padding: 20px 0;
+}
+.container .paragraphs{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+.button-section button{
+    padding: 20px 40px;
+    background-color: red;
+    color:#ffff;
+    border: none;
+    align-items: center;
+}
+.help{
+    background-color: #ffff;
+}
+.container-help{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+}
+.heading .call{
+    font-size: 2rem;
+    color: red;
+    margin-bottom: 70px;
+}
+.heading .need{
+    font-size: 2rem;
+}
+.billion{
+    height: 400px;
+    width: 400px;
+    margin:0 30px;
+}
+.plan p{
+    padding:50px 70px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+.plumber{
+    background-color:#d9d9d9;
+}
+.plumber-items{
+    display: flex;
+}
+.plumber-man{
+    height: 700px;
+    width: 50%;
+}
+.plumber-items .quality{
+    width: 50%;
+    padding-top: 15%;
+    padding-right: 50px;
+}
+.best{
+    font-size: 3.5rem;
+    color: blue;
+    padding-bottom: 20px;
+}
+.redline{
+    background-color: red;
+    height: 9px;
+}
+.company{
+    font-size: 1.3rem;
+    padding: 20px 0;
+}
+.button-section button{
+    padding: 20px 40px;
+    background-color: red;
+    color:#ffff;
+    border: none;
+    align-items: center;
+}
+.our-services{
+    background-color: #ffff;
+    padding: 30px;
+}
+.our-services h3{
+    font-size: 3rem;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 30px 0;
+}
+.red{
+    background-color:red;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    padding: 4%;
+}
+.electrical{
+    padding: 0 50px;
+}
+.paint-brush h4{
+    padding: 20px 0;
+}
+.electrical h4{
+    padding: 20px 0;
+}
+.repair h4{
+    padding: 20px 0;
+}
+.about{
+    background-color:blueviolet;
+    display: flex;
+}
+.about-text{
+    width:60%;
+    color:#ffff;
+    margin-top: 20%;
+    margin-left: 6%;
+    margin-bottom: 0;
+}
+.about-text h3{
+    font-size: 4rem;
+}
+.about-text p{
+    font-size:1.5rem;
+}
+.about-images{
+    padding: 9% 5%;
+}
+.about-imag-cont{
+    height:170px;
+    width: 210px;
+    flex-direction: flex-end;
+    padding-right:7%;
+}
+.about .first-row{
+    display: flex;
+    padding-bottom: 7%;
+    padding-right: 7%;
+}
+.about .second-row{
+    display: flex;
+}
+.professional{
+    background-color: #ffffff;
+    padding: 15% 0;
+}
+.professional-items{
+    text-align: center;
+}
+.professional-items h3{
+    font-size: 2.5rem;
+}
+.professional-items p{
+    padding: 30px 0;
+    font-size: 2rem;
+}
+.input-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.btn-section{
+    padding-left: 20px;
+}
+.btn-section button{
+    padding: 20px 40px;
+    background-color: #ffffff;
+    color:black;
+    align-items: center;
+}
+.custom-font{
+    font-family: 'sans-serif' 'itallic';
+    font-style: italic;
+}
+@media (max-width: 320px) {
+    .menu-items p {
+        padding-right: 70%;
+    }
+    .house-heading{
+        font-size: 3rem;
+    }   
+    .logo .img-container{
+        width: 100%;
+    } 
+    .logo .repair{
+        padding-left: 15px;
+    }
+    .logo-icons .cleaning{
+        padding: 0 8%;
+    }
+    .container .how{
+        font-size: 2rem;
+    }
+    .container-help{
+       padding-top: 50px;
+       padding-bottom: 30px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .plan .p{
+        padding: 50px 90px;
+    }
+    .heading{
+        width: 100%;
+    }
+    .heading .call{
+        font-size: 1.5rem;
+    }
+    .container .paragraphs{
+        padding: 10px 20px;
+    }
+    .billion {
+        height: 400px;
+        width: 350px;
+    }
+    .plumber-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .plumber-man {
+        height: 500px;
+        width: 100%;}
+    .plumber-items .quality {
+        width: 100%;
+        padding-top: 15%;
+        padding-left: 10px;
+    }
+    .our-services h3{
+        font-size: 2rem;
+    }
+    .icons {
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .electrical {
+       padding:25px 0%;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about .first-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 7%;
+        padding-right: 7%;
+    }
+    .about-imag-cont{
+        height: 170px;
+        width: 210px;
+        padding-bottom: 30px;
+    }
+    .about .second-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-imag-cont{
+        height: 170px;
+        width: 210px;
+        padding-bottom: 30px;
+        padding-right: 7%;
+    }
+    .professional-items{
+        text-align: center;
+        padding: 0 30px;
+    }
+    .professional-items h3 {
+        font-size: 2rem;
+    }
+    .professional-items p {
+        padding: 30px 0;
+        font-size: 1.5rem;
+    }
+    .input-boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .btn-section{
+        padding-left: 2%;
+        padding-top: 20px;
+    }
+}
+@media (max-width:768px) {
+    .menu-items p{
+        padding-right: 65%;
+    }
+    .logo .img-container {
+        width: 100%;
+        height: 100vh;
+    }
+    .container {
+        width: 70%;
+    }
+    .container-help {
+        display: flex;
+        flex-direction: column;
+    }
+    .billion {
+        height: 400px;
+        width: 70%;
+    }
+    .plan p{
+        padding: 50px 50px;
+        width: 70%;
+    }
+    .billion-photo{
+        height: 400px;
+        width: 70%;
+    }
+    .plumber-items {
+        display: flex;
+        width: 80%;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .electrical {
+        padding:0;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-imag-cont{
+        height: 200px;
+        width: 250px;
+    }
+    .professional-items {
+        text-align: center;
+    }
+    .professional-items h3 {
+        font-size: 2rem;
+    }
+    .professional-items p {
+        font-size: 1.5rem;
+    }
+}
