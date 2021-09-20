@@ -251,7 +251,7 @@
     font-family: 'sans-serif' 'itallic';
     font-style: italic;
 }
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     .menu-items p {
         padding-right: 70%;
     }
@@ -366,7 +366,7 @@
         padding-top: 20px;
     }
 }
-@media (min-width:768px) {
+@media (max-width:768px) {
     .menu-items p{
         padding-right: 65%;
     }
